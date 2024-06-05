@@ -1,14 +1,14 @@
-import { Box, Text } from "@mantine/core";
-import { theme } from "../Theme";
+import { Box, Text, Title } from "@mantine/core";
 
 function App() {
-  return <>
-  <Box>
-    <Text c="primary.1">
-      Hello
-    </Text>
-  </Box>
-  </>;
+  return (
+    <Box p="xs">
+      <Box  bg="red" >
+        <Title size="h1">Good Morning</Title>
+        <Text  c="primary.1">Hello</Text>
+      </Box>
+    </Box>
+  );
 }
 
 export default App;
