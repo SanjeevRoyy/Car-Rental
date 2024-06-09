@@ -11,7 +11,7 @@ export const theme = createTheme({
     fontFamily: "Arial, sans-serif",
     sizes: {
       h1: { fontSize: rem(50) },
-      h2: { fontSize: rem(20) },
+      h2: { fontSize: rem(35) },
       h3: { fontSize: rem(10) },
     },
   },

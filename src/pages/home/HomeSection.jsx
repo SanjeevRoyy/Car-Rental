@@ -2,15 +2,19 @@ import {
   Box,
   Button,
   Center,
+  Divider,
   Flex,
+  Group,
   Image,
   Space,
   Tabs,
   Text,
+  TextInput,
   Title,
 } from "@mantine/core";
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
+import { MdUpdate } from "react-icons/md";
 
 const HomeSection = () => {
   return (
@@ -33,25 +37,56 @@ const HomeSection = () => {
         <Image style={{ mixBlendMode: "multiply" }} src="img/car2.jpg" />
       </Flex>
       <Center>
-        <Tabs  defaultValue="gallery">
-          <Tabs.List>
-            <Tabs.Tab value="gallery">Hourly</Tabs.Tab>
-            <Tabs.Tab value="messages">Distance</Tabs.Tab>
-            <Tabs.Tab value="settings">Flat Rate</Tabs.Tab>
-          </Tabs.List>
-
-          <Tabs.Panel value="gallery">
-            <Flex>
-              
-            </Flex>
-          </Tabs.Panel>
-
-          <Tabs.Panel value="messages">Messages tab content</Tabs.Panel>
-
-          <Tabs.Panel value="settings">Settings tab content</Tabs.Panel>
-        </Tabs>
+        <Button.Group bg="whitesmoke" mt={10}>
+          <Button c="primary.0" variant="default">
+            Hourly
+          </Button>
+          <Button c="primary.0" variant="default">
+            Distance
+          </Button>
+          <Button c="primary.0" variant="default">
+            Flat Rate
+          </Button>
+        </Button.Group>
       </Center>
-      
+      <Center>
+        <Flex gap={20} p={20} align="center">
+          <Box>
+            <Group gap={2}>
+              <FaLocationDot color="#211455" />
+              <Text> Pick Up address</Text>
+            </Group>
+            <TextInput mt={5} placeholder="Enter Pick Up Address" />
+          </Box>
+          <Divider c="primary.0" orientation="vertical" />
+          <Box>
+            <Group gap={2}>
+              <FaLocationDot color="#211455" />
+              <Text> Drop Up address</Text>
+            </Group>
+            <TextInput mt={5} placeholder="Enter Drop Up Address" />
+          </Box>
+          <Divider orientation="vertical" />
+          <Box>
+            <Group gap={2}>
+              <MdUpdate  color="#211455"/>
+              <Text> Pick Up Date</Text>
+            </Group>
+            <TextInput mt={5} placeholder="Enter Pick Up Data" />
+          </Box>
+          <Divider orientation="vertical" />
+          <Box>
+            <Group gap={2}>
+              <MdUpdate color="#211455" />
+              <Text> Pick Up Time</Text>
+            </Group>
+            <TextInput mt={5} placeholder="Enter Pick Up Time" />
+          </Box>
+          <Button bg="secondary.0">Search</Button>
+        </Flex>
+      </Center>
+
+      {/* <Box h={"20vh"}></Box> */}
     </>
   );
 };
