@@ -4,6 +4,7 @@ import Services from './services/Services'
 import About from './about/About'
 import Vehicles from './vehicles/Vehicles'
 import OurApp from './faq/OurApp'
+import Testimonials from './testimonials/Testimonials'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About/>
       <Vehicles/>
       <OurApp/>
+      <Testimonials/>
     </>
   )
 }
