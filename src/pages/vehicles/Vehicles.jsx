@@ -77,7 +77,7 @@ const Vehicles = () => {
         </Card.Section>
 
         <Group position="apart" style={{ marginBottom: 5, marginTop: 10 }}>
-          <Text weight={500}>{car.name}</Text>
+          <Title size='h3' c='primary.0' weight={500}>{car.name}</Title>
           <Badge color="pink" variant="light">
             {car.rating} ⭐
           </Badge>
