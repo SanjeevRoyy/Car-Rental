@@ -12,8 +12,10 @@
   "dependencies": {
     "@mantine/core": "^7.10.1",
     "@mantine/hooks": "^7.10.1",
+    "google-fonts": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
