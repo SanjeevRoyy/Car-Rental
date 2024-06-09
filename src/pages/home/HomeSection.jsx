@@ -85,6 +85,7 @@ const HomeSection = () => {
           <Button bg="secondary.0">Search</Button>
         </Flex>
       </Center>
+      
 
       {/* <Box h={"20vh"}></Box> */}
     </>
