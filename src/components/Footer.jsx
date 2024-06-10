@@ -79,7 +79,7 @@ const Footer = () => {
           </Text>
         </Flex>
       </Flex>
-      <Divider />
+      <Divider color="whitesmoke" />
       <Text size="sm" p={10} ta="center" c="white" bg="primary.0">
         Copyright @2024 By Sanjeev. All Right Reserved 
       </Text>
