@@ -22,7 +22,8 @@ const HomeSection = () => {
       <Flex bg="whitesmoke" p={40} justify="space-between">
         <Box w={"50%"}>
           <Title c="primary.0">
-            UNLOCK YOUR <FaLocationDot color="red" /> <br /> TRAVEL EXPERIENCE
+            UNLOCK YOUR <FaLocationDot color="#C00000" /> <br /> TRAVEL
+            EXPERIENCE
           </Title>
           <Text mt={30}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas,
@@ -69,7 +70,7 @@ const HomeSection = () => {
           <Divider orientation="vertical" />
           <Box>
             <Group gap={2}>
-              <MdUpdate  color="#211455"/>
+              <MdUpdate color="#211455" />
               <Text> Pick Up Date</Text>
             </Group>
             <TextInput mt={5} placeholder="Enter Pick Up Data" />
@@ -85,7 +86,6 @@ const HomeSection = () => {
           <Button bg="secondary.0">Search</Button>
         </Flex>
       </Center>
-      
 
       {/* <Box h={"20vh"}></Box> */}
     </>

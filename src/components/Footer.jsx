@@ -9,9 +9,10 @@ const Footer = () => {
     <Flex justify="space-between" gap={20} p={40} bg="primary.0">
       <Flex direction="column" w="20%">
         <Image
-          style={{ mixBlendMode: "multiply" }}
-          w={100}
-          src="img/carrentlogo.png"
+        mt={-25}
+          // style={{ mixBlendMode: "multiply" }}
+          w={150}
+          src="img/logocar1.png"
         />
         <Text size="sm" c="white">
           It is a long established fact that a reader will be distracted by the
@@ -25,7 +26,7 @@ const Footer = () => {
           <FaLinkedinIn color="white" />
         </Group>
       </Flex>
-      <Flex direction="column" w="15%">
+      <Flex gap={10} direction="column" w="15%">
         <Text fw={700} c="white">
           QUICKS LINKS
         </Text>
@@ -45,7 +46,7 @@ const Footer = () => {
           Faq
         </Text>
       </Flex>
-      <Flex direction="column" w="15%">
+      <Flex gap={10} direction="column" w="15%">
         <Text fw={700} c="white">
           LEGAL
         </Text>
@@ -62,7 +63,7 @@ const Footer = () => {
           Feedback
         </Text>
       </Flex>
-      <Flex direction="column" w="20%">
+      <Flex gap={10} direction="column" w="20%">
         <Text fw={700} c="white">
           CONTACT
         </Text>
