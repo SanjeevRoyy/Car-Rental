@@ -35,7 +35,7 @@ const Testimonials = () => {
         </Group>
       </Box>
       <Paper radius={20} w="45%" p={20} bg="white">
-        <Image w={20} src='icons/quotes.png'/>
+        <Image w={20} src="icons/quotes.png" />
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi a
           laboriosam provident sunt quae, sed commodi vel in ab tempora ipsa
@@ -43,6 +43,7 @@ const Testimonials = () => {
           elit. Alias nisi a laboriosam provident sunt quae, sed commodi vel in
           ab tempora ipsa pariatur id minima.
         </Text>
+
         <Image w={100} src="/icons/rating.png" />
         <Group>
           <img
@@ -60,6 +61,7 @@ const Testimonials = () => {
         </Group>
       </Paper>
       <Paper radius={20} w="45%" p={20} bg="white">
+        <Image w={20} src="icons/quotes.png" />
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi a
           laboriosam provident sunt quae, sed commodi vel in ab tempora ipsa
@@ -71,7 +73,11 @@ const Testimonials = () => {
         <Group>
           <img
             height={70}
-            style={{ objectFit: "cover", borderRadius: "50%", objectPosition:'top' }}
+            style={{
+              objectFit: "cover",
+              borderRadius: "50%",
+              objectPosition: "top",
+            }}
             width={70}
             src="img/user12.jpg"
           />
