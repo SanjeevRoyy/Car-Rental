@@ -5,11 +5,13 @@ import About from './about/About'
 import Vehicles from './vehicles/Vehicles'
 import OurApp from './faq/OurApp'
 import Testimonials from './testimonials/Testimonials'
+import Navbar from '../components/Navbar'
 
 
 const Home = () => {
   return (
     <>
+  
       <HomeSection/>
       <Services/>
       <About/>

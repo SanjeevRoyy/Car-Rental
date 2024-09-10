@@ -1,13 +1,16 @@
 import { Box, Text, Title } from "@mantine/core";
 import Router from "./Router";
-import './index.css'
+import "./index.css";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-    <Router/>
-    <Footer/>
+      <Navbar
+       />
+      <Router />
+      <Footer />
     </>
   );
 }
